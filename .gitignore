@@ -1,0 +1,26 @@
+# Gradle / Android Studio
+.gradle/
+.kotlin/
+build/
+local.properties
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 签名与密钥，绝不入库
+*.jks
+*.keystore
+keystore.properties
+
+# 构建产物
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+*.log
